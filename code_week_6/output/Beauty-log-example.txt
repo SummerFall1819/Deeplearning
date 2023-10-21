@@ -1,0 +1,6 @@
+Namespace(data_dir='./data/', output_dir='output/', data_name='Beauty', hidden_size=64, num_hidden_layers=2, num_attention_heads=2, hidden_act='gelu', attention_probs_dropout_prob=0.5, hidden_dropout_prob=0.5, initializer_range=0.02, max_seq_length=50, lr=0.001, batch_size=256, epochs=1, log_freq=1, patience=10, seed=42, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, gpu_id='0', variance=5, cuda_condition=False, data_file='./data/Beauty.txt', sample_file='./data/Beauty_sample.txt', item_size=12102, log_file='output/Beauty-Oct-08-2023_12-17-11.txt')
+{'epoch': 0, 'rec_loss': '1.2394'}
+{'Epoch': 0, 'HIT@1': '0.0853', 'NDCG@1': '0.0853', 'HIT@5': '0.2549', 'NDCG@5': '0.1710', 'HIT@10': '0.3655', 'NDCG@10': '0.2067', 'MRR': '0.1777'}
+{'Epoch': 0, 'HIT@1': '0.0663', 'NDCG@1': '0.0663', 'HIT@5': '0.2064', 'NDCG@5': '0.1366', 'HIT@10': '0.3030', 'NDCG@10': '0.1678', 'MRR': '0.1470'}
+Beauty-Oct-08-2023_12-17-11
+{'Epoch': 0, 'HIT@1': '0.0663', 'NDCG@1': '0.0663', 'HIT@5': '0.2064', 'NDCG@5': '0.1366', 'HIT@10': '0.3030', 'NDCG@10': '0.1678', 'MRR': '0.1470'}
